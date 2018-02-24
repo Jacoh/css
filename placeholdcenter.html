@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta content="telephone=no,email=no" name="format-detection">
+    <meta content="width=device-width, initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+    <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+    <link rel="apple-touch-icon" href="favicon.png">
+    <link rel="Shortcut Icon" href="favicon.png" type="image/x-icon">
+    <title>Title</title>
+
+
+    <style type="text/css">
+        body{
+            padding: 20px;
+        }
+
+.ring-search {
+    height: 35px;
+    margin-bottom: 14px;
+    background-color: #f1f1f1;
+    margin: 16px 4% 12px;
+    border: 1px solid #c7c4c4;
+}
+
+.ring-search .keyword {
+    width: 100%;
+}
+
+.ring-search .keyword input {
+    width: 100%;
+    height: 35px;
+}
+
+input::-webkit-input-placeholder{text-align: center;}
+
+    </style>
+
+
+</head>
+<body>
+<!-- 页面结构写在这里 -->
+<div class="ring-search">
+    <div class="keyword">
+        <!-- 可输入时显示 -->
+        
+        <input type="search" autocomplete="off" maxlength="20" onblur="this.placeholder='搜索铃音名称、品牌名称等'" placeholder="搜索铃音名称、品牌名称等" onfocus="this.placeholder=''">
+        <!-- 搜索异常时提示 -->
+        
+        
+    </div>
+</div>
+</body>
+</html>
